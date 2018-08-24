@@ -1,0 +1,44 @@
+:root {
+    background-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* el titulo tiene color de fuente azul*/
+
+h1 {
+    color: blue;
+}
+
+
+/*Resaltar la informacion de la pagina*/
+
+.info {
+    margin: auto;
+    padding: inherit;
+    background-color: cadetblue;
+}
+
+
+/*Destacar datos principales*/
+
+[id=principal] {
+    text-decoration: underline;
+    background-color: dimgray;
+    color: lightgray;
+}
+
+#enlace {
+    color: cornflowerblue;
+}
+
+div>p {
+    font-style: italic;
+}
+
+
+/* Este convierte a todos los h3 en estilo oblicuo si estan adentro de un div*/
+
+div h3 {
+    font-style: oblique;
+}
