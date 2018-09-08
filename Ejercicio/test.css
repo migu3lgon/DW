@@ -1,0 +1,75 @@
+/* # para compilar :  sass test.scss ./test.css */
+/*# variables */
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+/*# nest */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+/*# partial -import */
+/*# _partial.scss*/
+span {
+  color: #444;
+}
+
+h6 {
+  color: #333;
+}
+
+/*# mixin */
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/*# extend */
+.message, .warning, .error, .success {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}
+
+.warning {
+  border-color: yellow;
+}
+
+/*# operadores + - *  y / */
+.container {
+  width: 100%;
+}
+
+article[role=main] {
+  float: left;
+  width: 62.5%;
+}
+
+aside[role=complementary] {
+  float: right;
+  width: 31.25%;
+}
+
+/*# sourceMappingURL=test.css.map */
