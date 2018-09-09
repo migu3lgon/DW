@@ -8,6 +8,4 @@ el
 mismo
 texto
 como 
-aquí
-prueba
-acerca
+aqui
